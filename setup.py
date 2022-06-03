@@ -40,8 +40,10 @@ setup(
     description='Next-generation Nagios remote plugin agent',
     author='Chris Boot',
     author_email='bootc@bootc.net',
+    maintainer='Russell M. Van Tassell',
+    maintainer_email='russell@geekoncall.net',
     license='GPL-2+',
-    url='https://github.com/bootc/nrpe-ng/',
+    url='https://github.com/russellvt/nrpe-ng/',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Environment :: Console',
