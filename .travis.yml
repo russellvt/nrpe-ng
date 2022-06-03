@@ -1,0 +1,11 @@
+#
+# Travis CI Yaml
+#
+# Ref:
+#  - https://docs.travis-ci.com/user/languages/python/
+#
+
+language: python
+
+python:
+  - "3.8"
