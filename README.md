@@ -4,6 +4,7 @@ nrpe-ng: The next generation Nagios Remote Plugin Executor
 This is a rewrite from the ground up of NRPE. This set of programs allows you
 to run Nagios check scripts on a remote host.
 
+
 FEATURES
 --------
 
@@ -20,6 +21,7 @@ FEATURES
   * Named arguments are supported. If you had trouble working out what $ARG7$
     in your check script was for, you can now call it something sensible
     instead.
+
 
 WHY? IS NRPE NOT GOOD ENOUGH?
 -----------------------------
@@ -42,6 +44,7 @@ currently (as of this writing) in Debian Jessie in response to CVE-2014-2913
 are too severe to fix properly. I felt that re-implementing it from the ground
 up with the features that I want was a good thing to do.
 
+
 DISCLAIMER
 ----------
 
@@ -49,9 +52,11 @@ This project is not endorsed nor authorised by Nagios Enterprises, LLC. I just
 picked the name as it seemed to be a good name to describe an improved
 re-implementation of NRPE.
 
+
 LICENSE
 -------
 Copyright (C) 2014-17  Chris Boot <bootc@bootc.net>
+
 Copyright (C) 2021-22  Russell M. Van Tassell <russell@geekoncall.net>
 
 This program is free software; you can redistribute it and/or
