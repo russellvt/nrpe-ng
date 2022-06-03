@@ -3,6 +3,10 @@
 
 # Vim swap files
 .*.swp
+__pycache__
+
+# Python setup.py build directory
+/build/
 
 # Setuptools distribution folder.
 /dist/
@@ -10,6 +14,9 @@
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
 /*.egg
+
+# Python3 Virtual Environments
+/venv*
 
 # Debian pybuild temporary directory
 /.pybuild/
