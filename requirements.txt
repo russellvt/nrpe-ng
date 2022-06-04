@@ -1,0 +1,3 @@
+python-daemon>=2
+requests
+tornado>=4.4
