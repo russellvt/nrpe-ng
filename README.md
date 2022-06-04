@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/russellvt/nrpe-ng.svg?branch=master)](https://app.travis-ci.com/russellvt/nrpe-ng)
+
 nrpe-ng: The next generation Nagios Remote Plugin Executor
 ==========================================================
 
