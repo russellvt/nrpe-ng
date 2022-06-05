@@ -28,3 +28,13 @@ you only need to run the `deactivate` command (again within that same
 `bin` directory - which should be on your path)... and that will return
 your environment to default.
 
+
+## Installing from source code control
+
+If you use the `venv` setup, above, as suggested, you can continue with
+the general Pythonic installation in these subdirectories:
+
+    pip install -r reuirements.txt
+    python setup.py install
+
+You should now have `nrpw-ng` in `venv.nrpe-ng/bin` directory.
