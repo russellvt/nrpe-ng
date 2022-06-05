@@ -16,25 +16,34 @@ For this project, we are going to use `venv.nrpe-ng` as the directory
 location. Most other modules tend to use the `venv` directory as the
 default.
 
-* `python3 -m venv venv.nrpe-ng`
-* `. ./venv.nrpe-ng/bin/activate`
-* `pip install --upgrade pip setuptools wheel`
+    python3 -m venv venv.nrpe-ng
+    . ./venv.nrpe-ng/bin/activate
+    pip install --upgrade pip setuptools wheel
 
 This now gives you a self-contained virtual environment in the `venv`
-directory. To activate the environment, simply source the `activate`
-file in the `bin` directory (you will need to do this prior to running
-the servive, as well). Once you are done working within the environment,
-you only need to run the `deactivate` command (again within that same
-`bin` directory - which should be on your path)... and that will return
-your environment to default.
+directory.
+
+To activate the environment, simply source the `activate` file in the
+`venv.nrtpe-ng/bin` directory (similar to above). This will preprend
+the `bin` directory to your system path as well as update your prompt
+(to remind you that you're in a `venv`).
+
+Running `nrpe-ng` will require that this environment is properly
+activated prior to invoking the daemon.
+
+Python venv also provides `activate` scripts for csh, fish and
+PowerShell in that same `bin` directory.
+
+You can simply run the `activate` tool to remove the `venv` environment
+from your system variables in your current shell.
 
 
 ## Installing from source code control
 
 If you use the `venv` setup, above, as suggested, you can continue with
-the general Pythonic installation in these subdirectories:
+the general Pythonic installation within this distribution.
 
-    pip install -r reuirements.txt
+    pip install -r requirements.txt
     python setup.py install
 
-You should now have `nrpw-ng` in `venv.nrpe-ng/bin` directory.
+You should now have `nrpe-ng` in `venv.nrpe-ng/bin` directory.
