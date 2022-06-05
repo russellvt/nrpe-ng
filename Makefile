@@ -18,11 +18,16 @@
 PYTHON3 := $(shell which python3)
 
 all: flake8
+.PHONY: all
 
+.PHONY: clean
 clean:
 	find $(CURDIR) -name .git -prune -o -name \*.pyc -type f -print0 | \
 		xargs -0 rm
 
+.PHONY: flake
 flake8:
+	pip install flake8
 	$(PYTHON3) -m flake8 $(CURDIR)
+	pip uninstall flake8
 
