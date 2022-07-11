@@ -79,7 +79,8 @@ class Command:
                 continue
 
             var = mo.group('arg')
-            run_args.append(args.get(var, ''))
+            new_arg = re.sub(r'\$'+var+r'\$', args.get(var, ''), arg)
+            run_args.append(new_arg)
 
         log.debug('Executing: {}'.format(subprocess.list2cmdline(run_args)))
 
