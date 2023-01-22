@@ -15,7 +15,8 @@ __pycache__
 /*.egg-info
 /*.egg
 
-# Python3 Virtual Environments
+# Python3 Virtual Environments / PyEnv
+.python-version
 /venv*
 
 # Debian pybuild temporary directory
