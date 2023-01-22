@@ -8,4 +8,4 @@ document from a perspective of "just getting started," through to
 more-regular usage.
 
 
-Copyright &copy; 2021-22 GeekOncall & Russell M. Van Tassell
+Copyright &copy; 2021-23 GeekOncall & Russell M. Van Tassell
