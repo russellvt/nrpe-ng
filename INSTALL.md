@@ -24,7 +24,7 @@ This now gives you a self-contained virtual environment in the `venv`
 directory.
 
 To activate the environment, simply source the `activate` file in the
-`venv.nrtpe-ng/bin` directory (similar to above). This will preprend
+`venv.nrpe-ng/bin` directory (similar to above). This will preprend
 the `bin` directory to your system path as well as update your prompt
 (to remind you that you're in a `venv`).
 
@@ -46,4 +46,13 @@ the general Pythonic installation within this distribution.
     pip install -r requirements.txt
     python setup.py install
 
-You should now have `nrpe-ng` in `venv.nrpe-ng/bin` directory.
+You should now have `nrpe-ng` in `venv.nrpe-ng/bin` directory (so it should
+be easily accessible from within the virtual environment).
+
+
+## Deactivating and Cleaning Up
+
+You should `deactivate` the Python environment when you are not actively
+using or maintaining it. This environment should generally be used only
+when working with `nrpe-ng` (mixing environments is left for "Advanced
+Usage," which is not explained here.
