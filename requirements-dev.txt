@@ -1,4 +1,4 @@
 flake8==6.1.0
 pipdeptree==2.13.1
 pylint==3.0.2
-pytest==7.4.3
+pytest==9.0.3
